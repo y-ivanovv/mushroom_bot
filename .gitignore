@@ -1,45 +1,8 @@
-# Python
-__pycache__/
-*.py[cod]
-*.egg
-*.egg-info/
-dist/
-build/
-*.log
-
-# Virtual environment
-.env/
-.venv/
-env/
-venv/
-ENV/
-.Python
-
-# PyCharm
+# Игнорировать папку .idea (настройки IDE)
 .idea/
 
-# Jupyter / IPython
-.ipynb_checkpoints
+# Игнорировать виртуальное окружение Python
+.venv/
 
-# Model files
-*.safetensors
-*.bin
-*.pth
-*.pt
-
-# Transformers cache (может появляться при загрузке модели)
-~/.cache/huggingface/
-huggingface/
-
-# Temporary files
-temp_*.jpg
-*.tmp
-*.bak
-
-# OS-specific
-.DS_Store
-Thumbs.db
-
-# Token file (если есть)
-*.token
+# Игнорировать файл с токенами/секретами
 token.txt
